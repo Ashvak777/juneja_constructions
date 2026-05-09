@@ -15,6 +15,7 @@
   <meta property="og:locale" content="en_CA" />
   <meta property="og:image" content="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200&h=630&fit=crop&q=80" />
   <link rel="canonical" href="https://ashvak777.github.io/juneja_constructions/" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Juneja Renovation & Construction | Brampton & GTA" />
   <meta name="twitter:description" content="Expert legal basement & house renovation, GTA & nearby. From permits to finish. 647-701-8906." />
@@ -128,7 +129,12 @@
       text-decoration: none;
       color: inherit;
     }
-    .brand svg { flex-shrink: 0; }
+    .brand svg,
+    .brand-mark { flex-shrink: 0; }
+    .brand-mark {
+      filter: drop-shadow(0 2px 10px rgba(23, 21, 19, 0.12));
+      border-radius: 13px;
+    }
     .brand-text {
       display: flex;
       flex-direction: column;
@@ -1174,10 +1180,15 @@
   <header class="site-header" id="top">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Juneja Renovation & Construction home">
-        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="44" height="44" rx="10" fill="#1E1D1B"/>
-          <path d="M12 30V14h4l6 9 6-9h4v16h-3.5V20l-5.5 8h-2L15.5 20v10H12z" fill="#F9F7F4"/>
-          <path d="M28 14l6 4v8l-6 4-6-4v-8l6-4z" fill="#b4532a" opacity=".95"/>
+        <svg class="brand-mark" width="44" height="44" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <!-- Tile -->
+          <rect width="48" height="48" rx="13" fill="#171513"/>
+          <!-- Copper beam (construction accent) -->
+          <rect x="0" y="9" width="5.5" height="30" rx="2.75" fill="#b4532a"/>
+          <!-- Roof line -->
+          <path d="M19 17.25L24 12l5 5.25" stroke="#b4532a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity=".88"/>
+          <!-- Serif J -->
+          <text x="30.75" y="24" dominant-baseline="central" text-anchor="middle" font-family="Georgia,Times New Roman,serif" font-size="26" font-weight="700" fill="#f7f5f1" letter-spacing="-0.08em">J</text>
         </svg>
         <span class="brand-text">
           <span class="brand-name">Juneja Renovation</span>
