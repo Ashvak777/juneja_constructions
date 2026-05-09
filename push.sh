@@ -3,7 +3,8 @@ set -euo pipefail
 cd "$(dirname "$0")"
 ENV_FILE="github-auth.local.env"
 if [[ ! -f "$ENV_FILE" ]]; then
-  echo "Missing $ENV_FILE — copy github-auth.local.env.example to $ENV_FILE and add GITHUB_TOKEN."
+  echo "Missing $ENV_FILE — copy github-auth.local.env.example to $ENV_FILE, then add:"
+  echo "  GITHUB_TOKEN=your_pat_here   (never put the PAT in *.example)"
   exit 1
 fi
 # shellcheck source=/dev/null
