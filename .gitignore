@@ -1,1 +1,4 @@
 .DS_Store
+
+# Never commit tokens — edit github-auth.local.env locally only
+github-auth.local.env
