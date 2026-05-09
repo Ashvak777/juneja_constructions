@@ -1,0 +1,18 @@
+HOW TO REPLACE STOCK PHOTOS WITH YOUR REAL JOB PHOTOS
+======================================================
+
+1. From Google Business Profile (Photos) or from your camera roll — export JPG or WEBP images
+   sized roughly 1400 px wide max (optimize with tinypng.com or Photos app export).
+
+2. Name them exactly and drop them HERE in this gallery folder:
+
+   project-01.jpg  … project-12.jpg
+
+   Lowercase extensions: .jpg  (or change index.html filenames to .webp consistently).
+
+3. After adding files: commit and push OR upload to GitHub in the repo "gallery/" folder.
+
+4. Refresh the live site — if a numbered file exists, this site loads it automatically.
+   If a file is missing, the demo stock image still appears.
+
+Optional: Rename captions in index.html (#gallery section) under each figure to describe your job.
